@@ -4,6 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { data } from './data';
 import { useState } from 'react';
 import EventHandle from './Event';
+import Mode from './Mode'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faAddressCard, faHeart, faStar } from '@fortawesome/free-regular-svg-icons';
 // import { faPerson, faWalking } from '@fortawesome/free-solid-svg-icons';
@@ -31,6 +32,7 @@ function Application() {
   }
   return (
     <div>
+      <Mode/>
       {template}
       <button className='btn btn-primary m-5' onClick={() => Adddata(10, 20)}>Click Me!</button>
 
