@@ -1,9 +1,12 @@
 
 import './App.css';
 import BgChanger from './Components/BgChanger';
+import Counter from './Components/Counter';
 import Hooks from './Components/Hooks';
 import Lists from './Components/Lists';
 import Props from './Components/Props';
+import RandomPass from './Components/RandomPass';
+import Stoper from './Components/Stoper';
 import TextCompo from './Components/TextCompo';
 import UseEffect from './Components/UseEffect';
 
@@ -24,6 +27,9 @@ function App() {
       {/* <Lists/> */}
       {/* <Props/> */}
       {/* <UseEffect/> */}
+      {/* <Counter/> */}
+      {/* <Stoper/> */}
+      <RandomPass/>
     </div>
   );
 }
