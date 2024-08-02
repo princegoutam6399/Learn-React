@@ -1,8 +1,11 @@
 
 import './App.css';
 import BgChanger from './Components/BgChanger';
+import ColorGererator from './Components/ColorGererator';
 import Counter from './Components/Counter';
+import DarkLightMode from './Components/Dark&LightMode';
 import Hooks from './Components/Hooks';
+import ImageSlider from './Components/ImageSlider';
 import Lists from './Components/Lists';
 import Props from './Components/Props';
 import RandomPass from './Components/RandomPass';
@@ -21,7 +24,7 @@ function App() {
       {/* <h1 className='text-success'>Hello</h1>
       <h2>{groom} weds {bride}</h2>
       <h2>{date} </h2> */}
-      <BgChanger/>
+      {/* <BgChanger/> */}
       {/* <TextCompo/> */}
       {/* <Hooks/> */}
       {/* <Lists/> */}
@@ -29,7 +32,10 @@ function App() {
       {/* <UseEffect/> */}
       {/* <Counter/> */}
       {/* <Stoper/> */}
-      <RandomPass/>
+      {/* <RandomPass/> */}
+      {/* <ColorGererator/> */}
+      {/* <DarkLightMode/> */}
+      <ImageSlider/>
     </div>
   );
 }

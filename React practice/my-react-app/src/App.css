@@ -32,9 +32,67 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 
+
+
+/* App.css */
+.light-mode {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.container {
+  position: relative;
+  width: 600px;
+  margin: auto;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+.items .item {
+  position: absolute;
+  width: 700px;
+  padding: 30px;
+}
+
+.items .item img {
+  width: 600px;
+  object-fit: cover;
+  height: 400px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+.icon i {
+  cursor: pointer;
+  font-size: 2rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px 14px;
+  border-radius: 50%;
+}
