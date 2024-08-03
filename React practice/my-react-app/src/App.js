@@ -1,4 +1,5 @@
 
+import { NotificationContainer, NotificationManager } from 'react-notifications';
 import './App.css';
 import BgChanger from './Components/BgChanger';
 import ColorGererator from './Components/ColorGererator';
@@ -7,11 +8,19 @@ import DarkLightMode from './Components/Dark&LightMode';
 import Hooks from './Components/Hooks';
 import ImageSlider from './Components/ImageSlider';
 import Lists from './Components/Lists';
+import Notification from './Components/Notification';
 import Props from './Components/Props';
 import RandomPass from './Components/RandomPass';
 import Stoper from './Components/Stoper';
 import TextCompo from './Components/TextCompo';
 import UseEffect from './Components/UseEffect';
+import LoginForm from './Components/LoginForm';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.bundle'
+import QuoteGenerator from './Components/QuoteGenerator';
+import Calendar from './Components/Calendar';
+import Calculator from './Components/Calculator';
+import MusicPlayer from './Components/MusicPlayer';
 
 
 
@@ -35,7 +44,13 @@ function App() {
       {/* <RandomPass/> */}
       {/* <ColorGererator/> */}
       {/* <DarkLightMode/> */}
-      <ImageSlider/>
+      {/* <ImageSlider/> */}
+      {/* <Notification /> */}
+      {/* <LoginForm/> */}
+      {/* <QuoteGenerator/> */}
+      {/* <Calendar/> */}
+      {/* <Calculator/> */}
+      <MusicPlayer/>
     </div>
   );
 }
