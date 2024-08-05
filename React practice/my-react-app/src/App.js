@@ -21,6 +21,7 @@ import QuoteGenerator from './Components/QuoteGenerator';
 import Calendar from './Components/Calendar';
 import Calculator from './Components/Calculator';
 import MusicPlayer from './Components/MusicPlayer';
+import TicTacToe from './Components/Tic Tac Toe/TicTacToe';
 
 
 
@@ -50,7 +51,8 @@ function App() {
       {/* <QuoteGenerator/> */}
       {/* <Calendar/> */}
       {/* <Calculator/> */}
-      <MusicPlayer/>
+      {/* <MusicPlayer/> */}
+      <TicTacToe/>
     </div>
   );
 }
