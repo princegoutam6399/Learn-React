@@ -22,6 +22,10 @@ import Calendar from './Components/Calendar';
 import Calculator from './Components/Calculator';
 import MusicPlayer from './Components/MusicPlayer';
 import TicTacToe from './Components/Tic Tac Toe/TicTacToe';
+// import Client from './Components/Image Search Gallery/Client';
+import SearchImage from './Components/ImageFinderbyApi/SearchImage';
+import ImageApp from './Components/ImageApp';
+
 
 
 
@@ -52,8 +56,12 @@ function App() {
       {/* <Calendar/> */}
       {/* <Calculator/> */}
       {/* <MusicPlayer/> */}
-      <TicTacToe/>
+      {/* <TicTacToe/> */}
+      {/* <Client/> */}
+      {/* <SearchImage/> */}
+      <ImageApp/>
     </div>
+
   );
 }
 
