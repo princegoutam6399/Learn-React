@@ -14,7 +14,6 @@ import RandomPass from './Components/RandomPass';
 import Stoper from './Components/Stoper';
 import TextCompo from './Components/TextCompo';
 import UseEffect from './Components/UseEffect';
-import LoginForm from './Components/LoginForm';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
 import QuoteGenerator from './Components/QuoteGenerator';
@@ -25,6 +24,9 @@ import TicTacToe from './Components/Tic Tac Toe/TicTacToe';
 // import Client from './Components/Image Search Gallery/Client';
 import SearchImage from './Components/ImageFinderbyApi/SearchImage';
 import ImageApp from './Components/ImageApp';
+import LoginForm from './Components/Login Form/LoginForm';
+import ValidationForm from './Components/Login Form/Form Validation/ValidationForm';
+
 
 
 
@@ -59,7 +61,8 @@ function App() {
       {/* <TicTacToe/> */}
       {/* <Client/> */}
       {/* <SearchImage/> */}
-      <ImageApp/>
+      {/* <ImageApp/> */}
+      <ValidationForm/>
     </div>
 
   );

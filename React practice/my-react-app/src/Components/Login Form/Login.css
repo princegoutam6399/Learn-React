@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 330px;
+    height: 440px;
+    background-color: #f7f7b8;
+    border-radius: 20px;
+}
+
+.active .form-toggle button{
+    background-color: darkorchid;
+}
+
+.Login-form,.signup-form{
+    text-align: start;
+    margin-left: 20px;
+}
+
