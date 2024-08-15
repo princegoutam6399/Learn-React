@@ -1,6 +1,9 @@
 
 import { NotificationContainer, NotificationManager } from 'react-notifications';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.bundle'
+
 import BgChanger from './Components/BgChanger';
 import ColorGererator from './Components/ColorGererator';
 import Counter from './Components/Counter';
@@ -14,18 +17,20 @@ import RandomPass from './Components/RandomPass';
 import Stoper from './Components/Stoper';
 import TextCompo from './Components/TextCompo';
 import UseEffect from './Components/UseEffect';
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/js/bootstrap.bundle'
+
+
 import QuoteGenerator from './Components/QuoteGenerator';
 import Calendar from './Components/Calendar';
 import Calculator from './Components/Calculator';
 import MusicPlayer from './Components/MusicPlayer';
-import TicTacToe from './Components/Tic Tac Toe/TicTacToe';
+// import TicTacToe from './Components/Tic Tac Toe/TicTacToe';
 // import Client from './Components/Image Search Gallery/Client';
 import SearchImage from './Components/ImageFinderbyApi/SearchImage';
 import ImageApp from './Components/ImageApp';
 import LoginForm from './Components/Login Form/LoginForm';
 import ValidationForm from './Components/Login Form/Form Validation/ValidationForm';
+import FetchData from './Components/FetchData/FetchData';
+import Product from './Components/FetchData/FetchProductData/Product';
 
 
 
@@ -62,7 +67,9 @@ function App() {
       {/* <Client/> */}
       {/* <SearchImage/> */}
       {/* <ImageApp/> */}
-      <ValidationForm/>
+      {/* <ValidationForm/> */}
+      {/* <FetchData/> */}
+      <Product/>
     </div>
 
   );
