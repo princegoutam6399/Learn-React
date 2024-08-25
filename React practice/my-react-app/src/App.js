@@ -31,20 +31,15 @@ import LoginForm from './Components/Login Form/LoginForm';
 import ValidationForm from './Components/Login Form/Form Validation/ValidationForm';
 import FetchData from './Components/FetchData/FetchData';
 import Product from './Components/FetchData/FetchProductData/Product';
-
+import Form from './Login Record/Form';
+import SelectOptions from './Select Option/SelectOptions';
 
 
 
 
 function App() {
-  // const groom = "Vicky";
-  // const bride = "kat";
-  // const date = "20/10/2023";
   return (
     <div className="App">
-      {/* <h1 className='text-success'>Hello</h1>
-      <h2>{groom} weds {bride}</h2>
-      <h2>{date} </h2> */}
       {/* <BgChanger/> */}
       {/* <TextCompo/> */}
       {/* <Hooks/> */}
@@ -69,7 +64,9 @@ function App() {
       {/* <ImageApp/> */}
       {/* <ValidationForm/> */}
       {/* <FetchData/> */}
-      <Product/>
+      {/* <Product/> */}
+      {/* <Form/> */}
+      <SelectOptions/>
     </div>
 
   );
