@@ -33,6 +33,8 @@ import FetchData from './Components/FetchData/FetchData';
 import Product from './Components/FetchData/FetchProductData/Product';
 import Form from './Login Record/Form';
 import SelectOptions from './Select Option/SelectOptions';
+import Click from './Components/ClickEvent/Click';
+import ClickToChange from './Components/ClickEvent/ClickToChange';
 
 
 
@@ -66,7 +68,9 @@ function App() {
       {/* <FetchData/> */}
       {/* <Product/> */}
       {/* <Form/> */}
-      <SelectOptions/>
+      {/* <SelectOptions/> */}
+      {/* <Click/> */}
+      <ClickToChange/>
     </div>
 
   );
