@@ -35,7 +35,7 @@ import Form from './Login Record/Form';
 import SelectOptions from './Select Option/SelectOptions';
 import Click from './Components/ClickEvent/Click';
 import ClickToChange from './Components/ClickEvent/ClickToChange';
-
+import BackgroundChanger from './Components/BackgroundChanger/BackgroundChanger';
 
 
 
@@ -70,7 +70,8 @@ function App() {
       {/* <Form/> */}
       {/* <SelectOptions/> */}
       {/* <Click/> */}
-      <ClickToChange/>
+      {/* <ClickToChange/> */}
+      <BackgroundChanger/>
     </div>
 
   );
