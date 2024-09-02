@@ -36,6 +36,7 @@ import SelectOptions from './Select Option/SelectOptions';
 import Click from './Components/ClickEvent/Click';
 import ClickToChange from './Components/ClickEvent/ClickToChange';
 import BackgroundChanger from './Components/BackgroundChanger/BackgroundChanger';
+import FetchDataUsingApi from './Components/FetchDataUsingApi/FetchDataUsingApi';
 
 
 
@@ -71,7 +72,8 @@ function App() {
       {/* <SelectOptions/> */}
       {/* <Click/> */}
       {/* <ClickToChange/> */}
-      <BackgroundChanger/>
+      {/* <BackgroundChanger/> */}
+      <FetchDataUsingApi/>
     </div>
 
   );
