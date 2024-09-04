@@ -37,6 +37,7 @@ import Click from './Components/ClickEvent/Click';
 import ClickToChange from './Components/ClickEvent/ClickToChange';
 import BackgroundChanger from './Components/BackgroundChanger/BackgroundChanger';
 import FetchDataUsingApi from './Components/FetchDataUsingApi/FetchDataUsingApi';
+import BillPage from './Components/Bill Page/BillPage';
 
 
 
@@ -73,7 +74,8 @@ function App() {
       {/* <Click/> */}
       {/* <ClickToChange/> */}
       {/* <BackgroundChanger/> */}
-      <FetchDataUsingApi/>
+      {/* <FetchDataUsingApi/> */}
+      <BillPage/>
     </div>
 
   );
