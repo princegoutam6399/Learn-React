@@ -38,6 +38,8 @@ import ClickToChange from './Components/ClickEvent/ClickToChange';
 import BackgroundChanger from './Components/BackgroundChanger/BackgroundChanger';
 import FetchDataUsingApi from './Components/FetchDataUsingApi/FetchDataUsingApi';
 import BillPage from './Components/Bill Page/BillPage';
+import Auth from './Components/Auth0/Auth';
+import Tabbing from './Components/Tabbing/Tabbing';
 
 
 
@@ -75,7 +77,9 @@ function App() {
       {/* <ClickToChange/> */}
       {/* <BackgroundChanger/> */}
       {/* <FetchDataUsingApi/> */}
-      <BillPage/>
+      {/* <BillPage/> */}
+      {/* <Auth/> */}
+      <Tabbing/>
     </div>
 
   );

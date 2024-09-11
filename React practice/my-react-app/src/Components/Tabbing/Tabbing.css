@@ -1,0 +1,17 @@
+.activateBtn{
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(253, 3, 3);
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  .activeBut{ 
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(3, 253, 95);
+    width: 100px;
+    cursor: pointer;
+  }
